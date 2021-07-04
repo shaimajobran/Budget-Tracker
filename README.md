@@ -49,7 +49,7 @@ See [package.json](./package.json) for full list of dependencies.
 - [Font Awesome](https://fontawesome.com)
 ``
  ## SCREEN SHOTS
-![screenshot](images/1.jpg)
+![screenshot](public/assets/images/1.jpg)
 ![screenshot](images/2.jpg)
 ![screenshot](images/3.jpg)
 ![screenshot](images/4.jpg)
