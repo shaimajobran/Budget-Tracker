@@ -2,11 +2,11 @@ const FILES_TO_CACHE = [
     '/',
     '/index.html',
     '/manifest.webmanifest',
-    '/public/styles.css',
-    '/public/js/idb.js',
-    '/public/js/index.js',
-    '/public/icons/icon-192x192.png',
-    '/public/icons/icon-512x512.png'
+    '/assets/css/styles.css',
+    '/assets/js/idb.js',
+    '/assets/js/index.js',
+    '/assets/icons/icon-192x192.png',
+    '/assets/icons/icon-512x512.png'
 ];
   
 const STATIC_CACHE = "static-cache";
