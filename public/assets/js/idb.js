@@ -1,6 +1,6 @@
 //creating a variable to hold db connnection
 let db;
-const request =indexedDB.open("BudgetDB",1);
+const request =indexedDB.open("budget",1);
 
 request.onupgradeneeded= async(e)=>{
     db =e.target.result;
