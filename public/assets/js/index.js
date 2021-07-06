@@ -3,6 +3,7 @@ let myChart;
 
 fetch("/api/transaction")
   .then(response => {
+    console.log(response);
     return response.json();
   })
   .then(data => {
@@ -12,7 +13,10 @@ fetch("/api/transaction")
     populateTotal();
     populateTable();
     populateChart();
-  });
+
+  }).catch((err)=>{
+    console.log("error",err);
+  })
 
 function populateTotal() {
   // reduce transaction amounts to a single total value

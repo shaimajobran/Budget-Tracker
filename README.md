@@ -49,7 +49,7 @@ See [package.json](./package.json) for full list of dependencies.
 - [Font Awesome](https://fontawesome.com)
 ``
  ## SCREEN SHOTS
-![screenshot](public/assets/images/11.jpg)
+![screenshot](public/images/11.jpg)
 
 ## Contact
 If you have any questions about the repo, contact me at [shaimajobran](shaimajobran22@gmail.com).

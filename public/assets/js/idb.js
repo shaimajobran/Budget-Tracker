@@ -17,13 +17,13 @@ request.onsuccess = e =>{
         checkDatabase();
     }
 };
-reques.onerror = e =>{
+request.onerror = e =>{
   console.log("Woops! " + e.target.errorCode);
 };
 
 function saveRecord(record) {
     // to create a transaction on the pending db with readwrite access
-    // db = request.result;
+    db = request.result;
 
         // this will access your pending object store
     const transaction = db.transaction(["pending"], "readwrite");
