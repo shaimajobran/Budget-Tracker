@@ -1,12 +1,12 @@
 const FILES_TO_CACHE = [
-    '/',
-    '/index.html',
-    '/manifest.webmanifest',
-    '/assets/css/styles.css',
-    '/assets/js/idb.js',
-    '/assets/js/index.js',
-    '/assets/icons/icon-192x192.png',
-    '/assets/icons/icon-512x512.png'
+  '/',
+  '/index.html',
+  '/manifest.webmanifest',
+  '/assets/css/styles.css',
+  '/assets/js/db.js',
+  '/assets/js/index.js',
+  '/assets/icons/icon-192x192.png',
+  '/assets/icons/icon-512x512.png'
 ];
   
 const STATIC_CACHE = "static-cache";
@@ -20,14 +20,14 @@ self.addEventListener("install", event => {
         .then(() => self.skipWaiting())
     );
 });
-  
 // This will  activate handler and also  takes care of cleaning up old caches.
+
 self.addEventListener("activate", event => {
-    const currentCaches = [STATIC_CACHE, RUNTIME_CACHE];
-    event.waitUntil(
-      caches
-        .keys()
-        .then(cacheNames => {
+  const currentCaches = [STATIC_CACHE, RUNTIME_CACHE];
+  event.waitUntil(
+    caches
+      .keys()
+      .then(cacheNames => {
           // return array of cache names that are old to delete
           return cacheNames.filter(
             cacheName => !currentCaches.includes(cacheName)
