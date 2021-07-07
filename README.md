@@ -11,10 +11,10 @@ In addition, this is a progressive web application that the user can download to
 ```
 ## Deployed Link
 
-Heroku Link: <br  />
-https://serene-grand-teton-68663.herokuapp.com/<br  />
-Github Link: <br  />
- https://github.com/shaimajobran/Budget-Tracker<br  />
+[Heroku Link](https://serene-grand-teton-68663.herokuapp.com/)
+
+[Github Link](https://github.com/shaimajobran/Budget-Tracker)
+
 
 
 
@@ -37,19 +37,22 @@ THEN that will be shown on the page, and added to their transaction history when
 * HTML
 * CSS
 ```
-### Node Libraries Used
+## Node Libraries Used
 - [Mongoose](https://www.npmjs.com/package/mongoose)
 - [Express](https://www.npmjs.com/package/express)
 - [Compression](https://www.npmjs.com/package/compression)
 
 See [package.json](./package.json) for full list of dependencies.
 
-### Additional Libraries
+## Additional Libraries
 - [Chart.js](https://www.chartjs.org)
 - [Font Awesome](https://fontawesome.com)
-``
- ## SCREEN SHOTS
-![screenshot](/public/images/img.jpg)
+
+## SCREENSHOTS 
+![Home](public/images/3.jpg)
+
+![Alt text](public/images/2.jpg)
+![Herokuscreenshots](public/images/4.jpg)
 
 ## Contact
 If you have any questions about the repo, contact me at [shaimajobran](shaimajobran22@gmail.com).
