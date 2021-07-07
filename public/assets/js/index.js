@@ -1,9 +1,14 @@
 let transactions = [];
 let myChart;
 
-fetch("/api/transaction")
+fetch("/api/transaction", {
+  method: "GET",
+  headers: {
+    Accept: "application/json, text/plain, */*",
+    "Content-Type": "application/json"
+  }
+})
   .then(response => {
-    console.log(response);
     return response.json();
   })
   .then(data => {
@@ -13,9 +18,9 @@ fetch("/api/transaction")
     populateTotal();
     populateTable();
     populateChart();
-
-  }).catch((err)=>{
-    console.log("error",err);
+  })
+  .catch(err => {
+    console.error(err);
   })
 
 function populateTotal() {
@@ -140,7 +145,6 @@ function sendTransaction(isAdding) {
   })
   .catch(err => {
     // fetch failed, so save in indexed db
-    console.log("Offline")
     saveRecord(transaction);
 
     // clear form

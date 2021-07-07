@@ -12,7 +12,7 @@ In addition, this is a progressive web application that the user can download to
 ## Deployed Link
 
 Heroku Link: <br  />
- <br  />
+https://serene-grand-teton-68663.herokuapp.com/<br  />
 Github Link: <br  />
  https://github.com/shaimajobran/Budget-Tracker<br  />
 
@@ -49,7 +49,7 @@ See [package.json](./package.json) for full list of dependencies.
 - [Font Awesome](https://fontawesome.com)
 ``
  ## SCREEN SHOTS
-![screenshot](public/images/11.jpg)
+![screenshot](/public/images/img.jpg)
 
 ## Contact
 If you have any questions about the repo, contact me at [shaimajobran](shaimajobran22@gmail.com).
